@@ -2,8 +2,7 @@
 
 chrome.runtime.onInstalled.addListener(function() {
     chrome.contentSettings.plugins.set({
-		'primaryPattern': '*://*.playthishotel.com/*',
-        ///'primaryPattern': 'https://*/*',
+	'primaryPattern': '*://*.playthishotel.com/*',
         'setting': 'allow',
         'scope': 'regular'
     });
