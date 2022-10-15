@@ -12,8 +12,8 @@ This useful resource will allow you to offer your community a way to automatical
 
 3. Navigate to the folder you just extracted on your machine.
 
-4. Open `manifest.json` ith your preferred code editor.  We recommend
-[Atom (developed by GitHub)][2] or [Brackets (developed by Adobe Systems)][3]
+4. Open `manifest.json` ith your preferred code editor. 
+> We recommend [Visual Studio Code (developed by Microsoft)][7], [Brackets (developed by Adobe Systems)][3] or [Phoenix Code Editor (Online)][8].
 
 5. From here modify the following to fit your hotel:
     - `"description": "Automatically allows Flash Player instead of asking for permission each time."`
@@ -48,3 +48,5 @@ Heads up! We recommend publishing your extension via the Chrome webstore. Becaus
 [4]: https://chrome.google.com/webstore
 [5]: https://www.adobe.com/products/flashplayer/end-of-life.html
 [6]: https://git.krews.org/nitro
+[7]: https://code.visualstudio.com
+[8]: https://phcode.dev
