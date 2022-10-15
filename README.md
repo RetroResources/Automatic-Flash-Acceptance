@@ -1,8 +1,8 @@
+This useful resource will allow you to offer your community a way to automatically enable Adobe Flash Player.
 
-# Automatic Flash Acceptance
+> Heads up: Since Adobe no longer supports Flash Player after December 31, 2020 and blocked Flash content from running in Flash Player beginning January 12, 2021, Adobe strongly recommends all users immediately uninstall Flash Player to help protect their systems. See [Adobe Flash Player EOL General Information Page][5]. Consider switching to [Nitro / Nitro HTML5][6] instead.
 
-This useful resource will allow you to offer your community a way to automatically enable flash player.
-
+---
 
 ### Configuration
 
@@ -28,6 +28,8 @@ This useful resource will allow you to offer your community a way to automatical
 
 8. That's it!
 
+---
+
 ### Publishing
 
 - You can publish your newly made extension on the [Chrome Webstore][4] using the guide below. Before you publish your first app, you must pay a one-time $5 USD developer sign-up fee (to Google). A reminder in the dashboard will appear until you pay the fee.
@@ -38,9 +40,11 @@ This useful resource will allow you to offer your community a way to automatical
 
 - To do this you (and your community) need to navigate to `chrome://extensions` and toggle `Developer mode` on then click the `Load unpacked` button and navigate to the path and select the `"1.0.363.563` folder.
 
-Heads up! We recommend publishing your extension via the Chrome Webstore. Because although this will save you $5 you'll be unable to offer automatic extension updates, community members will need to also take extra steps loading an unpacked extension (including downloading and extracting) vs one-click install and you'll likely need to make a detailed guide for installation and host your packed zip file.
+Heads up! We recommend publishing your extension via the Chrome webstore. Because although this will save you $5 you'll be unable to offer automatic extension updates, community members will need to also take extra steps loading an unpacked extension (including downloading and extracting) vs one-click install and you'll likely need to make a detailed guide for installation and host your packed zip file.
 
 [1]: https://github.com/RetroResources/Automatic-Flash-Acceptance/releases
 [2]: https://atom.io
 [3]: http://brackets.io
 [4]: https://chrome.google.com/webstore
+[5]: https://www.adobe.com/products/flashplayer/end-of-life.html
+[6]: https://git.krews.org/nitro
